@@ -79,7 +79,7 @@ case class EmptyPureSet extends PureSet {
 }
 
 case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
-  val ms = PureSet.deduplicate(l)
+  val ms: List[PureSet] = PureSet.deduplicate(l)
 
   def map(f: PureSet => PureSet): PureSet = PureSet(ms.map(f))
 
