@@ -17,8 +17,6 @@ trait PureSet extends tSet {
   def intersectionWith(s: PureSet): PureSet
   def intersection: PureSet
   def relativeComplementIn(b: PureSet): PureSet
-  def add(s: PureSet): PureSet
-  def addEach(s: PureSet): PureSet
 
   def reachIn(i: Int): PureSet  //Order doesn't matter, so this operation is theoretically non-deterministic
 
@@ -73,8 +71,6 @@ case class EmptyPureSet extends PureSet {
   def intersectionWith(s: PureSet): PureSet = this
   def intersection: PureSet = this
   def relativeComplementIn(b: PureSet): PureSet = this
-  def add(s: PureSet): PureSet = PureSet.unit(s)
-  def addEach(s: PureSet): PureSet = s
 
   def reachIn(i: Int): PureSet = this
 
@@ -111,8 +107,6 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
       case _ => acc
     })
   }
-  def add(s: PureSet): PureSet = this.unionWith(s)
-  def addEach(s: PureSet): PureSet = s.members.foldLeft(PureSet(m))((acc: PureSet, x: PureSet) => acc.add(x))
 
   def reachIn(i: Int): PureSet = m(i) //Order doesn't matter, so this operation is theoretically non-deterministic
 
