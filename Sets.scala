@@ -55,7 +55,7 @@ object PureSet {
 }
 
 case class EmptyPureSet extends PureSet {
-  def map(f: PureSet => PureSet): PureSet = PureSet.unit(f(this))
+  def map(f: PureSet => PureSet): PureSet = this
 
   def isEmpty: Boolean = true
   def size: Int = 0
