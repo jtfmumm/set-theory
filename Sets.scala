@@ -74,7 +74,7 @@ case class EmptyPureSet extends PureSet {
 
   def reachIn(i: Int): PureSet = this
 
-  override def toString: String = "0"
+  override def toString: String = "Ø"
   def listMem(): Unit = println("")
 }
 

@@ -26,8 +26,8 @@
       <file leaf-file-name="Sets.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sets.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7918288" vertical-offset="858" max-vertical-offset="4026">
-              <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.63033175" vertical-offset="1161" max-vertical-offset="4026">
+              <caret line="83" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
               <folding>
                 <element signature="e#2612#2616#0" expanded="true" />
                 <element signature="e#4093#4097#0" expanded="true" />
@@ -385,12 +385,12 @@
       <changelist id="7eb0819c-c707-407d-8ff9-553638d5facf" name="Default" comment="" />
       <created>1435766294502</created>
       <updated>1435766294502</updated>
-      <workItem from="1435766295820" duration="31568000" />
+      <workItem from="1435766295820" duration="31663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31568000" />
+    <option name="totallyTimeSpent" value="31663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1175" extended-state="6" />
@@ -445,8 +445,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Sets.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7918288" vertical-offset="858" max-vertical-offset="4026">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.63033175" vertical-offset="1161" max-vertical-offset="4026">
+          <caret line="83" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
           <folding>
             <element signature="e#2612#2616#0" expanded="true" />
             <element signature="e#4093#4097#0" expanded="true" />
