@@ -161,11 +161,11 @@ def pureSetCombinations(l: List[PureSet]): PureSet = {
 //ASSERTIONS
 
 val p0 = PureSet()
-val p1 = PureSet().powerSet
-val p2 = PureSet().powerSet.powerSet
-val p3 = PureSet().powerSet.powerSet.powerSet
-val p4 = PureSet().powerSet.powerSet.powerSet.powerSet
-//val p5 = PureSet().powerSet.powerSet.powerSet.powerSet.powerSet
+val p1 = p0.powerSet
+val p2 = p1.powerSet
+val p3 = p2.powerSet
+val p4 = p3.powerSet
+//val p5 = p4.powerSet
 
 def test = {
   assert(p0.size == 0)
