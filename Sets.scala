@@ -25,7 +25,7 @@ trait PureSet extends tSet {
 
 object PureSet {
   def apply(): PureSet = new EmptyPureSet
-  def apply(l: List[PureSet]): PureSet = new NonEmptyPureSet(l)
+  def apply(l: List[PureSet]): PureSet = if (l.isEmpty) new EmptyPureSet else new NonEmptyPureSet(l)
 
   def pair(s: PureSet, t: PureSet): PureSet = PureSet(List(s, t))
   def unit(s: PureSet): PureSet = pair(s, s)
