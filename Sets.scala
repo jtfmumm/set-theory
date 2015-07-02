@@ -71,7 +71,7 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   def map(f: PureSet => PureSet): PureSet = PureSet(m.map(f))
 
   def isEmpty: Boolean = false
-  def size: Int = m.size //Don't count empty set
+  def size: Int = m.size 
   def cardinality: Int = size
   def members: List[PureSet] = m
   def is(s: PureSet): Boolean = m.forall(s.hasMember _) && s.size == size
