@@ -1,8 +1,6 @@
 trait tSet
 
 trait PureSet extends tSet {
-  val m: List[PureSet]
-
   def map(f: PureSet => PureSet): PureSet
 
   def isEmpty: Boolean
@@ -59,14 +57,12 @@ object PureSet {
 }
 
 case class EmptyPureSet extends PureSet {
-  val m = Nil
-
   def map(f: PureSet => PureSet): PureSet = PureSet.unit(f(this))
 
   def isEmpty: Boolean = true
   def size: Int = 0
   def cardinality: Int = size
-  def members: List[PureSet] = m
+  def members: List[PureSet] = Nil
   def is(s: PureSet): Boolean = s.isEmpty
   def hasMember(el: PureSet): Boolean = false
   def hasSubset(s: PureSet): Boolean = false
