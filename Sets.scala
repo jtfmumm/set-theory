@@ -79,41 +79,41 @@ case class EmptyPureSet extends PureSet {
 }
 
 case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
-  val m = PureSet.deduplicate(l)
+  val ms = PureSet.deduplicate(l)
 
-  def map(f: PureSet => PureSet): PureSet = PureSet(m.map(f))
+  def map(f: PureSet => PureSet): PureSet = PureSet(ms.map(f))
 
   def isEmpty: Boolean = false
-  def size: Int = m.size
+  def size: Int = ms.size
   def cardinality: Int = size
-  def members: List[PureSet] = m
+  def members: List[PureSet] = ms
   def is(s: PureSet): Boolean = this.isSubsetOf(s) && s.size == size
   def hasSubset(s: PureSet): Boolean = s.isSubsetOf(this)
-  def isSubsetOf(s: PureSet): Boolean = m.forall(s.hasMember _)
-  def hasMember(el: PureSet): Boolean = m.exists((mem: PureSet) => mem.is(el))
-  def powerSet: PureSet = pureSetCombinations(m)
-  def unionWith(s: PureSet): PureSet = PureSet(m ++ s.members)
-  def union: PureSet = m.foldLeft(PureSet())((acc: PureSet, x: PureSet) => acc.unionWith(x))
+  def isSubsetOf(s: PureSet): Boolean = ms.forall(s.hasMember _)
+  def hasMember(el: PureSet): Boolean = ms.exists((m: PureSet) => m.is(el))
+  def powerSet: PureSet = pureSetCombinations(ms)
+  def unionWith(s: PureSet): PureSet = PureSet(ms ++ s.members)
+  def union: PureSet = ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => acc.unionWith(x))
   def intersectionWith(s: PureSet): PureSet = {
-    m.foldLeft(PureSet())((acc: PureSet, x: PureSet) => x match {
+    ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => x match {
       case a if s.hasMember(a) => acc.unionWith(a)
       case _ => acc
     })
   }
-  def intersection: PureSet = m.foldLeft(PureSet())((acc: PureSet, x: PureSet) => acc.intersectionWith(x))
+  def intersection: PureSet = ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => acc.intersectionWith(x))
   def relativeComplementIn(b: PureSet): PureSet = {
-    m.foldLeft(PureSet())((acc: PureSet, x: PureSet) => x match {
+    ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => x match {
       case a if !b.hasMember(a) => acc.unionWith(a)
       case _ => acc
     })
   }
 
-  def reachIn(i: Int): PureSet = m(i) //Order doesn't matter, so this operation is theoretically non-deterministic
+  def reachIn(i: Int): PureSet = ms(i) //Order doesn't matter, so this operation is theoretically non-deterministic
 
   override def toString: String = "{" + membersToString + "}"
-  def listMem(): Unit = for (el <- m) println(el)
+  def listMem(): Unit = for (el <- ms) println(el)
 
-  private def membersToString: String = m.foldLeft("")((acc, x) => acc + x.toString + ", ").dropRight(2)
+  private def membersToString: String = ms.foldLeft("")((acc, x) => acc + x.toString + ", ").dropRight(2)
 }
 
 
