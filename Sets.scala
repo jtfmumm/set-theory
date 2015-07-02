@@ -145,6 +145,8 @@ def pureSetCombinations(l: List[PureSet]): PureSet = {
 
 
 
+//ASSERTIONS
+
 
 val p0 = PureSet()
 val p1 = PureSet().powerSet
