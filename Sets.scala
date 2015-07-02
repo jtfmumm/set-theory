@@ -87,10 +87,10 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   def size: Int = m.size
   def cardinality: Int = size
   def members: List[PureSet] = m
-  def is(s: PureSet): Boolean = m.forall(s.hasMember _) && s.size == size
-  def hasMember(el: PureSet): Boolean = m.exists((mem: PureSet) => mem.is(el))
+  def is(s: PureSet): Boolean = this.isSubsetOf(s) && s.size == size
   def hasSubset(s: PureSet): Boolean = s.isSubsetOf(this)
   def isSubsetOf(s: PureSet): Boolean = m.forall(s.hasMember _)
+  def hasMember(el: PureSet): Boolean = m.exists((mem: PureSet) => mem.is(el))
   def powerSet: PureSet = pureSetCombinations(m)
   def unionWith(s: PureSet): PureSet = PureSet(m ++ s.members)
   def union: PureSet = m.foldLeft(PureSet())((acc: PureSet, x: PureSet) => acc.unionWith(x))
