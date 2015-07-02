@@ -22,6 +22,8 @@ trait PureSet extends tSet {
   def add(s: PureSet): PureSet
   def addEach(s: PureSet): PureSet
 
+  def reachIn(i: Int): PureSet  //Order doesn't matter, so this operation is theoretically non-deterministic
+
   def listMem(): Unit
 }
 
@@ -31,6 +33,23 @@ object PureSet {
 
   def pair(s: PureSet, t: PureSet): PureSet = PureSet(List(s, t))
   def unit(s: PureSet): PureSet = pair(s, s)
+
+  def oPair(s: PureSet, t: PureSet): PureSet = PureSet(List(s, PureSet(List(s, t))))
+  def oTuple(l: List[PureSet]): PureSet = l.reduceLeft((s, t) => {
+    PureSet.oPair(s, t)
+  })  //But how can we unwind this, given that the first set in the tuple might have a size > 1?
+  def fst(p: PureSet): PureSet = {
+    if (p.size != 2) throw new Exception("You can only take fst on a set with two elements")
+    val s = p.reachIn(0)
+    val t = p.reachIn(1)
+    if (s.isSubsetOf(t)) s else t //This assumes we have an oPair
+  }
+  def snd(p: PureSet): PureSet = {
+    if (p.size != 2) throw new Exception("You can only take snd on a set with two elements")
+    val s = p.reachIn(0)
+    val t = p.reachIn(1)
+    if (s.isSubsetOf(t)) t else s //This assumes we have an oPair
+  }
 
   def deduplicate(l: List[PureSet]) = l.foldLeft(List[PureSet]())((acc: List[PureSet], x: PureSet) => {
     if (acc.exists((s: PureSet) => s.is(x))) acc else acc :+ x
@@ -61,6 +80,8 @@ case class EmptyPureSet extends PureSet {
   def add(s: PureSet): PureSet = PureSet.unit(s)
   def addEach(s: PureSet): PureSet = s
 
+  def reachIn(i: Int): PureSet = this
+
   override def toString: String = "0"
   def listMem(): Unit = println("")
 }
@@ -71,7 +92,7 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   def map(f: PureSet => PureSet): PureSet = PureSet(m.map(f))
 
   def isEmpty: Boolean = false
-  def size: Int = m.size 
+  def size: Int = m.size
   def cardinality: Int = size
   def members: List[PureSet] = m
   def is(s: PureSet): Boolean = m.forall(s.hasMember _) && s.size == size
@@ -96,6 +117,8 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   }
   def add(s: PureSet): PureSet = this.unionWith(s)
   def addEach(s: PureSet): PureSet = s.members.foldLeft(PureSet(m))((acc: PureSet, x: PureSet) => acc.add(x))
+
+  def reachIn(i: Int): PureSet = m(i) //Order doesn't matter, so this operation is theoretically non-deterministic
 
   override def toString: String = "{" + membersToString + "}"
   def listMem(): Unit = for (el <- m) println(el)
