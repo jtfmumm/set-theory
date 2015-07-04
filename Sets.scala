@@ -1,6 +1,6 @@
-trait tSet
+trait _Set
 
-trait PureSet extends tSet {
+trait PureSet extends _Set {
   def map(f: PureSet => PureSet): PureSet
 
   def isEmpty: Boolean
@@ -11,6 +11,7 @@ trait PureSet extends tSet {
   def hasMember(el: PureSet): Boolean
   def hasSubset(s: PureSet): Boolean
   def isSubsetOf(s: PureSet): Boolean
+  def isProperSubsetOf(s: PureSet): Boolean
   def powerSet: PureSet
   def unionWith(s: PureSet): PureSet
   def union: PureSet
@@ -63,8 +64,11 @@ object PureSet {
     case z if z.is(zero) => n1
     case _ => pred(minus(n1, pred(n2)))
   }
-
-  def numAsInt(n: PureSet): Int = n.size  //This is just a convenience method for display
+  def gt(n1: PureSet, n2: PureSet): Boolean = n2.isProperSubsetOf(n1)
+  def lt(n1: PureSet, n2: PureSet): Boolean = n1.isProperSubsetOf(n2)
+  def gte(n1: PureSet, n2: PureSet): Boolean = n2.isSubsetOf(n1)
+  def lte(n1: PureSet, n2: PureSet): Boolean = n1.isSubsetOf(n2)
+  def eq(n1: PureSet, n2: PureSet): Boolean = n1.is(n2)
 
   def deduplicate(l: List[PureSet]) = l.foldLeft(List[PureSet]())((acc: List[PureSet], x: PureSet) => {
     if (acc.exists((s: PureSet) => s.is(x))) acc else acc :+ x
@@ -84,6 +88,7 @@ case class EmptyPureSet extends PureSet {
   def hasMember(el: PureSet): Boolean = false
   def hasSubset(s: PureSet): Boolean = false
   def isSubsetOf(s: PureSet): Boolean = true
+  def isProperSubsetOf(s: PureSet): Boolean = !s.isEmpty
   def powerSet: PureSet = PureSet.unit(this)
   def unionWith(s: PureSet): PureSet = s
   def union: PureSet = this
@@ -110,6 +115,7 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   def is(s: PureSet): Boolean = this.isSubsetOf(s) && s.size == size
   def hasSubset(s: PureSet): Boolean = s.isSubsetOf(this)
   def isSubsetOf(s: PureSet): Boolean = ms.forall(s.hasMember _)
+  def isProperSubsetOf(s: PureSet): Boolean = this.isSubsetOf(s) && !s.isSubsetOf(this)
   def hasMember(el: PureSet): Boolean = ms.exists((m: PureSet) => m.is(el))
   def powerSet: PureSet = pureSetCombinations(ms)
   def unionWith(s: PureSet): PureSet = PureSet(ms ++ s.members)
@@ -188,14 +194,12 @@ val p3 = p2.powerSet
 val p4 = p3.powerSet
 //val p5 = p4.powerSet
 
-def test = {
-  assert(p0.size == 0)
-  assert(p1.size == Math.pow(2, 0))
-  assert(p2.size == Math.pow(2, 1))
-  assert(p3.size == Math.pow(2, 2))
-  assert(p4.size == Math.pow(2, 4))
+assert(p0.size == 0)
+assert(p1.size == Math.pow(2, 0))
+assert(p2.size == Math.pow(2, 1))
+assert(p3.size == Math.pow(2, 2))
+assert(p4.size == Math.pow(2, 4))
 //  assert(p5.size == Math.pow(2, 16))
-}
 
 val zero = PureSet.zero
 val one = PureSet.succ(zero)
