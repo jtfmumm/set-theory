@@ -19,6 +19,7 @@ trait PureSet extends tSet {
   def relativeComplementIn(b: PureSet): PureSet
 
   def reachIn(i: Int): PureSet  //Order doesn't matter, so this operation is theoretically non-deterministic
+  def largest: PureSet
 
   def listMem(): Unit
 }
@@ -47,6 +48,24 @@ object PureSet {
     if (s.isSubsetOf(t)) t else s //This assumes we have an oPair
   }
 
+  val zero = new EmptyPureSet
+  def succ(n: PureSet): PureSet = n.unionWith(PureSet.unit(n))
+  def pred(n: PureSet): PureSet = n.relativeComplementIn(n.largest)
+  def plus(n1: PureSet, n2: PureSet): PureSet = n2 match {
+    case z if z.is(zero) => n1
+    case _ => succ(plus(n1, pred(n2)))
+  }
+  def times(n1: PureSet, n2: PureSet): PureSet = n2 match {
+    case z if z.is(zero) => zero
+    case _ => plus(n1, times(n1, pred(n2)))
+  }
+  def minus(n1: PureSet, n2: PureSet): PureSet = n2 match {
+    case z if z.is(zero) => n1
+    case _ => pred(minus(n1, pred(n2)))
+  }
+
+  def numAsInt(n: PureSet): Int = n.size  //This is just a convenience method for display
+
   def deduplicate(l: List[PureSet]) = l.foldLeft(List[PureSet]())((acc: List[PureSet], x: PureSet) => {
     if (acc.exists((s: PureSet) => s.is(x))) acc else acc :+ x
   })
@@ -73,6 +92,7 @@ case class EmptyPureSet extends PureSet {
   def relativeComplementIn(b: PureSet): PureSet = this
 
   def reachIn(i: Int): PureSet = this
+  def largest: PureSet = this
 
   override def toString: String = "∅"
   def listMem(): Unit = println("")
@@ -109,6 +129,7 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   }
 
   def reachIn(i: Int): PureSet = ms(i) //Order doesn't matter, so this operation is theoretically non-deterministic
+  def largest: PureSet = ms.sortBy(_.size).reverse.head
 
   override def toString: String = "{" + membersToString + "}"
   def listMem(): Unit = for (el <- ms) println(el)
@@ -175,3 +196,15 @@ def test = {
   assert(p4.size == Math.pow(2, 4))
 //  assert(p5.size == Math.pow(2, 16))
 }
+
+val zero = PureSet.zero
+val one = PureSet.succ(zero)
+val two = PureSet.succ(one)
+val three = PureSet.succ(two)
+val four = PureSet.succ(three)
+val five = PureSet.succ(four)
+val six = PureSet.succ(five)
+val seven = PureSet.succ(six)
+val eight = PureSet.succ(seven)
+val nine = PureSet.succ(eight)
+val ten = PureSet.succ(nine)
