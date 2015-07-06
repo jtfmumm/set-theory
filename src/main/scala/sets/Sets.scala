@@ -139,47 +139,47 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   def listMem(): Unit = for (el <- ms) println(el)
 
   private def membersToString: String = ms.foldLeft("")((acc, x) => acc + x.toString + ", ").dropRight(2)
-}
 
-
-
-def pureSetCombinations(l: List[PureSet]): PureSet = {
-  def prefix(el: PureSet, ss: List[PureSet]): List[PureSet] = {
-    ss.map(PureSet.unit _).map(_.unionWith(PureSet.unit(el))) :+ el
-  }
-
-  def naryGroups(lst: List[PureSet], n: Int): List[PureSet] = {
-    def loop(l: List[PureSet], acc: List[PureSet]): List[PureSet] = {
-      l match {
-        case Nil => acc
-        case hd :: tl if n == 1 => prefix(hd, tl)
-        case h :: t => prefix(h, naryGroups(t, n - 1)) ++ naryGroups(t, n)
-      }
+  private def pureSetCombinations(l: List[PureSet]): PureSet = {
+    def prefix(el: PureSet, ss: List[PureSet]): List[PureSet] = {
+      ss.map(PureSet.unit _).map(_.unionWith(PureSet.unit(el))) :+ el
     }
 
-    loop(lst, Nil)
-  }
-
-  def combinations(ms: List[PureSet]): PureSet = {
-    def loop(l: List[PureSet], acc: List[PureSet], k: Int): List[PureSet] = {
-      k match {
-        case x if x > ms.size => acc
-        case 0 => loop(ms, acc :+ PureSet(), 1)
-        case 1 => {
-          val singles = ms ++ ms.map(PureSet.unit _)
-          loop(ms, acc ++ singles, 2)
+    def naryGroups(lst: List[PureSet], n: Int): List[PureSet] = {
+      def loop(l: List[PureSet], acc: List[PureSet]): List[PureSet] = {
+        l match {
+          case Nil => acc
+          case hd :: tl if n == 1 => prefix(hd, tl)
+          case h :: t => prefix(h, naryGroups(t, n - 1)) ++ naryGroups(t, n)
         }
-        case n => loop(ms, acc ++ naryGroups(ms, n), k + 1)
       }
+
+      loop(lst, Nil)
     }
 
-    val members = loop(ms, Nil, 0)
+    def combinations(ms: List[PureSet]): PureSet = {
+      def loop(l: List[PureSet], acc: List[PureSet], k: Int): List[PureSet] = {
+        k match {
+          case x if x > ms.size => acc
+          case 0 => loop(ms, acc :+ PureSet(), 1)
+          case 1 => {
+            val singles = ms ++ ms.map(PureSet.unit _)
+            loop(ms, acc ++ singles, 2)
+          }
+          case n => loop(ms, acc ++ naryGroups(ms, n), k + 1)
+        }
+      }
 
-    PureSet(members)
+      val members = loop(ms, Nil, 0)
+
+      PureSet(members)
+    }
+
+    combinations(l)
   }
-
-  combinations(l)
 }
+
+
 
 
 

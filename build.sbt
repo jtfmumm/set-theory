@@ -4,8 +4,12 @@ lazy val commonSettings = Seq(
   // scalaVersion := "2.11.4"
 )
 
+lazy val gitRepo = "git:https://github.com/jtfmumm/digit-parser#master"
+
+lazy val digitParser = RootProject(uri(gitRepo))
+
 lazy val root = (project in file(".")).
-  dependsOn(ProjectRef(uri("https://github.com/jtfmumm/digit-parser"), "digit-parser")).
+  dependsOn(digitParser).
   settings(commonSettings: _*).
   settings(
     name := "Set Theory"

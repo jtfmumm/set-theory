@@ -1,0 +1,317 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+26 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/EmptyPureSet$.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/EmptyPureSet.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$hasMember$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$intersection$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$intersectionWith$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$isSubsetOf$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$largest$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$listMem$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$membersToString$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$prefix$1$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$prefix$1$2.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$relativeComplementIn$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$union$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$$anonfun$deduplicate$1$$anonfun$apply$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$$anonfun$deduplicate$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$$anonfun$oTuple$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/_Set.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI$$anonfun$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI$$anonfun$isNumber$1.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI$.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI.class
+binary dependencies:
+5 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> /Users/jmumm/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Users/jmumm/.sbt/0.13/staging/81b99ff9ebae5fbf26a0/digit-parser/target/scala-2.10/classes/DigitParser.class
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Users/jmumm/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> /Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+26 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> EmptyPureSet
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> EmptyPureSet$
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$hasMember$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$intersection$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$intersectionWith$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$isSubsetOf$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$largest$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$listMem$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$membersToString$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$prefix$1$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$prefix$1$2
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$relativeComplementIn$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet$$anonfun$union$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> PureSet
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> PureSet$
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> PureSet$$anonfun$deduplicate$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> PureSet$$anonfun$deduplicate$1$$anonfun$apply$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> PureSet$$anonfun$oTuple$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> _Set
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> SetUI
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> SetUI$
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> SetUI$$anonfun$1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> SetUI$$anonfun$isNumber$1
+used names:
+155 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> &&
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> +
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> ++
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> -
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> :+
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> <init>
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> ==
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> >
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> AbstractFunction0
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> AbstractFunction1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> AnyRef
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Boolean
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> EmptyPureSet
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Function1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Int
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> List
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Nil
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> NonEmptyPureSet
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> None
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Ordering
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Predef
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Product
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> PureSet
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> ScalaRunTime
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Serializable
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> String
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> Unit
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> _Set
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> _hashCode
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> _root_
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> acc
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> apply
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> asInstanceOf
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> augmentString
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> b
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> canBuildFrom
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> combinations
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> deduplicate
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> dropRight
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> el
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> eq
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> exists
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> f
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> foldLeft
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> forall
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> foreach
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> h
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> hasMember
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> hd
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> head
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> i
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> immutable
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> intersectionWith
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> is
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> isEmpty
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> isInstanceOf
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> isProperSubsetOf
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> isSubsetOf
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> k
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> l
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> largest
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> loop
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> lst
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> m
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> map
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> math
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> members
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> membersToString
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> minus
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> ms
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> n
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> n1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> n2
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> naryGroups
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> oPair
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> p
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> package
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> pair
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> plus
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> pred
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> prefix
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> println
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> pureSetCombinations
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> reachIn
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> reduceLeft
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> relativeComplementIn
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> reverse
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> runtime
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> s
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> scala
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> singles
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> size
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> sortBy
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> ss
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> succ
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> t
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> times
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> tl
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> toString
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> typedProductIterator
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> unary_!
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> unionWith
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> unit
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> x
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> zero
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> ||
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> <init>
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> ==
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> AnyRef
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> Boolean
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> Char
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> DigitParser
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> Exception
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> List
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> Predef
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> PureSet
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> SetUI
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> String
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> apply
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> augmentString
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> c
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> charWrapper
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> compOps
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> contains
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> digits
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> eq
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> forall
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> getLeftOperand
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> getOp
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> getRightOperand
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> gt
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> gte
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> immutable
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> isComparisonOp
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> isDigit
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> lt
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> lte
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> minus
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> n1
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> n2
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> natParser
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> op
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> package
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> parse
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> parseCalc
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> parseComp
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> parseInt
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> plus
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> s
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> scala
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> size
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> split
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> succ
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> times
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> zero
+product stamps:
+26 items
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/EmptyPureSet$.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/EmptyPureSet.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$hasMember$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$intersection$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$intersectionWith$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$isSubsetOf$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$largest$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$listMem$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$membersToString$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$prefix$1$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$prefix$1$2.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$relativeComplementIn$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$$anonfun$union$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet$.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/NonEmptyPureSet.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$$anonfun$deduplicate$1$$anonfun$apply$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$$anonfun$deduplicate$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$$anonfun$oTuple$1.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet$.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/PureSet.class -> lastModified(1436194852000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI$$anonfun$1.class -> lastModified(1436194878000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI$$anonfun$isNumber$1.class -> lastModified(1436194878000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI$.class -> lastModified(1436194878000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/SetUI.class -> lastModified(1436194878000)
+/Users/jmumm/dev/scala/set-theory/target/scala-2.10/classes/_Set.class -> lastModified(1436194852000)
+source stamps:
+2 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> hash(9cf2ccbbbd40d418031f1bb8c7d972ba58e3a643)
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> hash(5926ed373fd34bb51a83afdfa56e97e9b10124b7)
+binary stamps:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1399493098000)
+/Users/jmumm/.sbt/0.13/staging/81b99ff9ebae5fbf26a0/digit-parser/target/scala-2.10/classes/DigitParser.class -> lastModified(1436192326000)
+/Users/jmumm/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+class names:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/jmumm/.sbt/0.13/staging/81b99ff9ebae5fbf26a0/digit-parser/target/scala-2.10/classes/DigitParser.class -> DigitParser
+/Users/jmumm/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.Boolean
+internal apis:
+2 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB63TXZAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAASXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFMInZZ0AAppc1N1YnNldE9mc3EAfgAMfvhaR3QABm5vdGlmeXNxAH4ADOfWNp50AAtkZWR1cGxpY2F0ZXNxAH4ADN84inV0AAp3aXRoTWVtYmVyc3EAfgAMZ5uZIXQAAmlzc3EAfgAMdUqX9XQABHdhaXRzcQB+AAyfzjygdAAFb1BhaXJzcQB+AAyNVIpudAANJGFzSW5zdGFuY2VPZnNxAH4ADA1lPGh0AAVtaW51c3NxAH4ADPi21Yh0AANndGVzcQB+AAxn+CBBdAAPTm9uRW1wdHlQdXJlU2V0c3EAfgAMBv+jlHQABHNpemVzcQB+AAy6+nhOdAAFdW5pb25zcQB+AAz1lSrtdAAQaXNQcm9wZXJTdWJzZXRPZnNxAH4ADAqj8Ox0ABNwdXJlU2V0Q29tYmluYXRpb25zc3EAfgAMVq4z7HQAA21hcHNxAH4ADAzv6YZ0AAxwcm9kdWN0QXJpdHlzcQB+AAx9pROJdAAEcGx1c3NxAH4ADELNqBJ0AAZlcXVhbHNzcQB+AAw6VaGtdAAMaW50ZXJzZWN0aW9uc3EAfgAM8HYu6XQAB1B1cmVTZXRzcQB+AAwInhdbdAAEemVyb3NxAH4ADFlTHtF0AARzdWNjc3EAfgAMs7utlXQADGFzSW5zdGFuY2VPZnNxAH4ADG5hQ110AAtjYXJkaW5hbGl0eXNxAH4ADJyueNd0AAxzeW5jaHJvbml6ZWRzcQB+AAytA1p2dAAJdW5pb25XaXRoc3EAfgAMkiLf9HQADSRpc0luc3RhbmNlT2ZzcQB+AAxmoLH9dAAJaGFzU3Vic2V0c3EAfgAMAW8rA3QACGNhbkVxdWFsc3EAfgAMMkCDAXQACWhhc01lbWJlcnNxAH4ADLkPpEJ0ABRyZWxhdGl2ZUNvbXBsZW1lbnRJbnNxAH4ADKC7UA90AA1wcm9kdWN0UHJlZml4c3EAfgAMpqhdZ3QACW5vdGlmeUFsbHNxAH4ADLub/BF0AARwcmVkc3EAfgAMWZ3FtHQAA3NuZHNxAH4ADJFzfqJ0AAxpc0luc3RhbmNlT2ZzcQB+AAzlvDf0dAAPbWVtYmVyc1RvU3RyaW5nc3EAfgAMH5gAAnQABjxpbml0PnNxAH4ADGxSath0AAdsYXJnZXN0c3EAfgAMEnmHpnQABWFwcGx5c3EAfgAMIffbd3QAAWxzcQB+AAxZ3P/GdAACPT1zcQB+AAwXhGJKdAAFY2xvbmVzcQB+AAyv9iYsdAAHbGlzdE1lbXNxAH4ADCeuZZZ0AAxFbXB0eVB1cmVTZXRzcQB+AAxpXng+dAAQaW50ZXJzZWN0aW9uV2l0aHNxAH4ADM1Jrwl0AAV0aW1lc3NxAH4ADMnbfNR0AARjb3B5c3EAfgAMN4Qeg3QAA2x0ZXNxAH4ADG7VLd10AAdtZW1iZXJzc3EAfgAMcK9mnXQACHRvU3RyaW5nc3EAfgAMa38VrXQAAiE9c3EAfgAMAP/JwXQABHBhaXJzcQB+AAxVc4/PdAAEdW5pdHNxAH4ADJ07j450AARfU2V0c3EAfgAMvPA+BXQACGdldENsYXNzc3EAfgAMlQr5onQADmNvcHkkZGVmYXVsdCQxc3EAfgAMMIOsxXQACHBvd2VyU2V0c3EAfgAMVOb6PXQABm9UdXBsZXNxAH4ADGGzuih0AAdyZWFjaEluc3EAfgAMlgb0AHQAA2ZzdHNxAH4ADB47o2d0AAdpc0VtcHR5c3EAfgAMXglKZHQAAm5lc3EAfgAMjouHqHQAAmx0c3EAfgAMbowSanQAAmd0c3EAfgAMZaIuWHQAAmVxc3EAfgAMwifQ73QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADPTDKlV0AAJtc3NxAH4ADBSuEz90AAIjI3NxAH4ADIDnWIl0AAhmaW5hbGl6ZXNxAH4ADGLDhdp0AA5wcm9kdWN0RWxlbWVudHNxAH4ADPdDKkl0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAVzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AKl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAFxAH4AfXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AwXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AwABwc3EAfgDFc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AKlMAAlpbmhlcml0ZWRxAH4AqUwAB3BhcmVudHNxAH4AqXhxAH4AyXNxAH4AwABwc3EAfgDFdXEAfgCkAAAAAHNxAH4AwABwc3EAfgDFdXEAfgCkAAAAAHNxAH4AwABwc3EAfgDFdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgDIdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgDIc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDldAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDmc3EAfgDZdAADQW55c3EAfgDdc3EAfgDgdXEAfgDjAAAAAnNxAH4A5XQABXNjYWxhcQB+AOxzcQB+AKZxAH4As3VxAH4AtAAAAABzcQB+ALYBcQB+ADd1cQB+ALgAAAAAcQB+ALx1cQB+AL4AAAAAc3EAfgDAAHBzcQB+AMVxAH4AynNxAH4AwABwc3EAfgDFc3EAfgDNc3EAfgDAAHBzcQB+AMV1cQB+AKQAAAAAc3EAfgDAAHBzcQB+AMV1cQB+AKQAAAAAc3EAfgDAAHBzcQB+AMV1cQB+ANcAAAADc3EAfgDZdAAEX1NldHNxAH4A3XNxAH4A4HVxAH4A4wAAAAFxAH4A7HNxAH4A2XEAfgDcc3EAfgDdc3EAfgDgdXEAfgDjAAAAA3NxAH4A5XEAfgDoc3EAfgDlcQB+AOpxAH4A7HNxAH4A2XEAfgDuc3EAfgDdc3EAfgDgdXEAfgDjAAAAAnNxAH4A5XEAfgDzcQB+AOxzcQB+AKZxAH4As3VxAH4AtAAAAABzcQB+ALYAdAAHUHVyZVNldHVxAH4AuAAAAAB+cQB+ALp0AAZNb2R1bGV1cQB+AL4AAAAAc3EAfgDAAHBzcQB+AMVxAH4AynNxAH4AwABwc3EAfgDFc3EAfgDNc3EAfgDAAHBzcQB+AMV1cQB+AKQAAAAAc3EAfgDAAHBzcQB+AMV1cQB+AKQAAAAAc3EAfgDAAHBzcQB+AMV1cQB+ANcAAAACc3EAfgDZcQB+ANxzcQB+AN1zcQB+AOB1cQB+AOMAAAADc3EAfgDlcQB+AOhzcQB+AOVxAH4A6nEAfgDsc3EAfgDZcQB+AO5zcQB+AN1zcQB+AOB1cQB+AOMAAAACc3EAfgDlcQB+APNxAH4A7HNxAH4ApnEAfgCzdXEAfgC0AAAAAHNxAH4AtgBxAH4AaXVxAH4AuAAAAAB+cQB+ALp0AAhDbGFzc0RlZnVxAH4AvgAAAABzcQB+AMAAcHNxAH4AxXEAfgDKc3EAfgDAAHBzcQB+AMVzcQB+AM1zcQB+AMAAcHNxAH4AxXVxAH4ApAAAAABzcQB+AMAAcHNxAH4AxXVxAH4ApAAAAABzcQB+AMAAcHNxAH4AxXVxAH4A1wAAAAhzcQB+ANl0AAxTZXJpYWxpemFibGVzcQB+AN1zcQB+AOB1cQB+AOMAAAACc3EAfgDlcQB+APNxAH4A7HNxAH4A2XEAfgFOc3EAfgDdc3EAfgDgdXEAfgDjAAAAA3NxAH4A5XEAfgDoc3EAfgDldAACaW9xAH4A7HNxAH4A2XQAB1Byb2R1Y3RxAH4BT3NxAH4A2XQABkVxdWFsc3EAfgFPc3EAfgDZdAAHUHVyZVNldHNxAH4A3XNxAH4A4HVxAH4A4wAAAAFxAH4A7HNxAH4A2XQABF9TZXRxAH4BYHNxAH4A2XEAfgDcc3EAfgDdc3EAfgDgdXEAfgDjAAAAA3NxAH4A5XEAfgDoc3EAfgDlcQB+AOpxAH4A7HNxAH4A2XEAfgDucQB+AU9zcQB+AKZxAH4As3VxAH4AtAAAAABzcQB+ALYAcQB+ACN1cQB+ALgAAAAAcQB+ATx1cQB+AL4AAAAAc3EAfgDAAHBzcQB+AMVxAH4AynNxAH4AwABwc3EAfgDFc3EAfgDNc3EAfgDAAHBzcQB+AMV1cQB+AKQAAAAAc3EAfgDAAHBzcQB+AMV1cQB+AKQAAAAAc3EAfgDAAHBzcQB+AMV1cQB+ANcAAAAIc3EAfgDZcQB+AU5zcQB+AN1zcQB+AOB1cQB+AOMAAAACc3EAfgDlcQB+APNxAH4A7HNxAH4A2XEAfgFOc3EAfgDdc3EAfgDgdXEAfgDjAAAAA3NxAH4A5XEAfgDoc3EAfgDldAACaW9xAH4A7HNxAH4A2XEAfgFbcQB+AYBzcQB+ANl0AAZFcXVhbHNxAH4BgHNxAH4A2XQAB1B1cmVTZXRzcQB+AN1zcQB+AOB1cQB+AOMAAAABcQB+AOxzcQB+ANl0AARfU2V0cQB+AZBzcQB+ANlxAH4A3HNxAH4A3XNxAH4A4HVxAH4A4wAAAANzcQB+AOVxAH4A6HNxAH4A5XEAfgDqcQB+AOxzcQB+ANlxAH4A7nEAfgGAdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU5j4j0VdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOy9Vc2Vycy9qbXVtbS9kZXYvc2NhbGEvc2V0LXRoZW9yeS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUnPLMu71A1BgDHxu4x9lyuljjpkM=
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDLuH9DAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPKo1ct0AAZub3RpZnlzcQB+AAzRUr4udAAEd2FpdHNxAH4ADPyHhed0AAlwYXJzZUNvbXBzcQB+AAzOXRDWdAANJGFzSW5zdGFuY2VPZnNxAH4ADFsE1qN0AAZlcXVhbHNzcQB+AAwhcfENdAAMYXNJbnN0YW5jZU9mc3EAfgAMbS4LNHQABWdldE9wc3EAfgAMOOJrzHQABmRpZ2l0c3NxAH4ADAK/p410AAdpc0RpZ2l0c3EAfgAMG0FJ1HQADHN5bmNocm9uaXplZHNxAH4ADBKCLtF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjaO0gHQACW5vdGlmeUFsbHNxAH4ADPkfMMJ0AA5pc0NvbXBhcmlzb25PcHNxAH4ADDbkW2h0AAluYXRQYXJzZXJzcQB+AAyKoY8IdAAMaXNJbnN0YW5jZU9mc3EAfgAMHEELmnQABGV2YWxzcQB+AAz88YxNdAACPT1zcQB+AAwKUMjodAAFY2xvbmVzcQB+AAzLsY/IdAAIaXNOdW1iZXJzcQB+AAzXl7K7dAAIdG9TdHJpbmdzcQB+AAzJ/AopdAAOZ2V0TGVmdE9wZXJhbmRzcQB+AAwwbiPudAACIT1zcQB+AAzcSyjgdAAFU2V0VUlzcQB+AAzXNYtfdAAIZ2V0Q2xhc3NzcQB+AAw54LbwdAAIcGFyc2VJbnRzcQB+AAxLPX1EdAAPZ2V0UmlnaHRPcGVyYW5kc3EAfgAM5YwFqnQAAm5lc3EAfgAMNMTyBHQACXBhcnNlQ2FsY3NxAH4ADOgxK+l0AAJlcXNxAH4ADNK4d1x0AAdjb21wT3Bzc3EAfgAM27Ay43QAAiMjc3EAfgAMYylVCXQACGZpbmFsaXplc3EAfgAMK9V6YnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AWXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgA7dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBwAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBZTAAJaW5oZXJpdGVkcQB+AFlMAAdwYXJlbnRzcQB+AFl4cQB+AHdzcQB+AHABdXEAfgBUAAAAAHBzcQB+AHABdXEAfgBUAAAAAHBzcQB+AHABdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB2dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB2c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCPdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCQc3EAfgCDdAADQW55c3EAfgCHc3EAfgCKdXEAfgCNAAAAAnNxAH4Aj3QABXNjYWxhcQB+AJZwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFOY+KpdnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvVXNlcnMvam11bW0vZGV2L3NjYWxhL3NldC10aGVvcnkvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFkm7Tc/00u1GoOv36Vul+mxASS3
+external apis:
+0 items
+source infos:
+2 items
+/Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala -> 
+AAAAAAAAAAEAAAEAAABOACljYXNlIGNsYXNzIEVtcHR5UHVyZVNldCBleHRlbmRzIFB1cmVTZXQgewEAAAqbAQAAABcBABcgICAgICAgICAgICAgICAgICAgICAgIAEAQC9Vc2Vycy9qbXVtbS9kZXYvc2NhbGEvc2V0LXRoZW9yeS9zcmMvbWFpbi9zY2FsYS9zZXRzL1NldHMuc2NhbGEBAEAvVXNlcnMvam11bW0vZGV2L3NjYWxhL3NldC10aGVvcnkvc3JjL21haW4vc2NhbGEvc2V0cy9TZXRzLnNjYWxhAIBjYXNlIGNsYXNzZXMgd2l0aG91dCBhIHBhcmFtZXRlciBsaXN0IGhhdmUgYmVlbiBkZXByZWNhdGVkOwp1c2UgZWl0aGVyIGNhc2Ugb2JqZWN0cyBvciBjYXNlIGNsYXNzZXMgd2l0aCBgKCknIGFzIHBhcmFtZXRlciBsaXN0LgE=
+/Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmPiPRV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9qbXVtbS9kZXYvc2NhbGEvc2V0LXRoZW9yeS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmPiqXZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9qbXVtbS9kZXYvc2NhbGEvc2V0LXRoZW9yeS90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
