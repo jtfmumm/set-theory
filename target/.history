@@ -28,3 +28,6 @@ sonatypeRelease
 publishSigned
 sonatypeRelease
 exit
+publishSigned
+sonatypeRelease
+exit

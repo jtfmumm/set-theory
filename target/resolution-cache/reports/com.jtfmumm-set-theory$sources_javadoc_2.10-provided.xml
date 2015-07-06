@@ -4,10 +4,10 @@
 	<info
 		organisation="com.jtfmumm"
 		module="set-theory$sources_javadoc_2.10"
-		revision="0.1.0"
+		revision="0.1.1"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150706173033"/>
+		date="20150706173647"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

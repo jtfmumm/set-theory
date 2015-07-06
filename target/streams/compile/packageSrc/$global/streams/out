@@ -1,7 +1,7 @@
-[0m[[0minfo[0m] [0mPackaging /Users/jmumm/dev/scala/set-theory/target/scala-2.10/set-theory_2.10-0.1.0-sources.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /Users/jmumm/dev/scala/set-theory/target/scala-2.10/set-theory_2.10-0.1.1-sources.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	sets/Sets.scala[0m
 [0m[[0mdebug[0m] [0m	  /Users/jmumm/dev/scala/set-theory/src/main/scala/sets/Sets.scala[0m
-[0m[[0mdebug[0m] [0m	ui/SetUI.scala[0m
-[0m[[0mdebug[0m] [0m	  /Users/jmumm/dev/scala/set-theory/src/main/scala/ui/SetUI.scala[0m
+[0m[[0mdebug[0m] [0m	sets/ui/SetUI.scala[0m
+[0m[[0mdebug[0m] [0m	  /Users/jmumm/dev/scala/set-theory/src/main/scala/sets/ui/SetUI.scala[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m

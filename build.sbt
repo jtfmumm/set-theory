@@ -2,7 +2,7 @@ lazy val digitParser = "com.jtfmumm" % "digit-parser_2.10" % "0.1.0"
 
 lazy val commonSettings = Seq(
   organization := "com.jtfmumm",
-  version := "0.1.0"
+  version := "0.1.1"
   // scalaVersion := "2.11.4"
 )
 
