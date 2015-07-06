@@ -120,14 +120,14 @@ case class NonEmptyPureSet(l: List[PureSet]) extends PureSet {
   def union: PureSet = ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => acc.unionWith(x))
   def intersectionWith(s: PureSet): PureSet = {
     ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => x match {
-      case a if s.hasMember(a) => acc.unionWith(a)
+      case a if s.hasMember(a) => acc.unionWith(PureSet.unit(a))
       case _ => acc
     })
   }
   def intersection: PureSet = ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => acc.intersectionWith(x))
   def relativeComplementIn(b: PureSet): PureSet = {
     ms.foldLeft(PureSet())((acc: PureSet, x: PureSet) => x match {
-      case a if !b.hasMember(a) => acc.unionWith(a)
+      case a if !b.hasMember(a) => acc.unionWith(PureSet.unit(a))
       case _ => acc
     })
   }
