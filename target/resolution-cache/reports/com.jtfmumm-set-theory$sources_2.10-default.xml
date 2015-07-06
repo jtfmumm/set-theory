@@ -7,7 +7,7 @@
 		revision="0.1.0"
 		conf="default"
 		confs="default"
-		date="20150706171124"/>
+		date="20150706173033"/>
 	<dependencies>
 		<module organisation="com.jsuereth" name="sbt-pgp">
 			<revision name="1.0.0" status="release" pubdate="20141101190304" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="47">
@@ -122,7 +122,7 @@
 				<metadata-artifact status="no" details="" size="3331" time="0" location="/Users/jmumm/.ivy2/cache/scala_2.10/sbt_0.13/org.xerial.sbt/sbt-sonatype/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.10_0.13/0.5.0/sbt-sonatype-0.5.0.pom"/>
 				<caller organisation="com.jtfmumm" name="set-theory$sources_2.10" conf="default" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.1.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
-					<artifact name="sbt-sonatype" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6510" time="341" location="/Users/jmumm/.ivy2/cache/scala_2.10/sbt_0.13/org.xerial.sbt/sbt-sonatype/srcs/sbt-sonatype-0.5.0-sources.jar">
+					<artifact name="sbt-sonatype" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6510" time="0" location="/Users/jmumm/.ivy2/cache/scala_2.10/sbt_0.13/org.xerial.sbt/sbt-sonatype/srcs/sbt-sonatype-0.5.0-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.10_0.13/0.5.0/sbt-sonatype-0.5.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -133,7 +133,7 @@
 				<metadata-artifact status="no" details="" size="10143" time="0" location="/Users/jmumm/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.pom"/>
 				<caller organisation="com.jtfmumm" name="set-theory$sources_2.10" conf="default" rev="4.2.6" rev-constraint-default="4.2.6" rev-constraint-dynamic="4.2.6" callerrev="0.1.0"/>
 				<artifacts>
-					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="523108" time="412" location="/Users/jmumm/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.2.6-sources.jar">
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="523108" time="0" location="/Users/jmumm/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.2.6-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -144,7 +144,7 @@
 				<metadata-artifact status="no" details="" size="7561" time="0" location="/Users/jmumm/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
 				<caller organisation="com.jtfmumm" name="set-theory$sources_2.10" conf="default" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="0.1.0"/>
 				<artifacts>
-					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="243982" time="344" location="/Users/jmumm/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.6-sources.jar">
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="243982" time="0" location="/Users/jmumm/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.6-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -166,7 +166,7 @@
 				<metadata-artifact status="no" details="" size="7592" time="0" location="/Users/jmumm/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.pom"/>
 				<caller organisation="com.jtfmumm" name="set-theory$sources_2.10" conf="default" rev="4.2.5" rev-constraint-default="4.2.5" rev-constraint-dynamic="4.2.5" callerrev="0.1.0"/>
 				<artifacts>
-					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="325817" time="315" location="/Users/jmumm/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.2.5-sources.jar">
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="325817" time="0" location="/Users/jmumm/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.2.5-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-sources.jar"/>
 					</artifact>
 				</artifacts>

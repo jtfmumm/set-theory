@@ -7,7 +7,7 @@
 		revision="0.1.0"
 		conf="default"
 		confs="default"
-		date="20150706171124"/>
+		date="20150706173032"/>
 	<dependencies>
 		<module organisation="com.jsuereth" name="sbt-pgp">
 			<revision name="1.0.0" status="release" pubdate="20141101190304" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="49">

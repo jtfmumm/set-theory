@@ -815,9 +815,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.2!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.2!apply-macro.jar
-[debug] :: resolution report :: resolve 590ms :: artifacts dl 22ms
+[debug] :: resolution report :: resolve 1159ms :: artifacts dl 39ms
 [debug] 	report for com.jtfmumm#set-theory$sbt_2.10;0.1.0 default produced in /Users/jmumm/dev/scala/set-theory/target/resolution-cache/reports/com.jtfmumm-set-theory$sbt_2.10-default.xml
-[debug] 	resolve done (590ms resolve - 22ms download)
+[debug] 	resolve done (1159ms resolve - 39ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: com.jtfmumm#set-theory$sources_2.10;0.1.0
 [debug] 	confs: [default]
@@ -1265,51 +1265,11 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.2!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.2!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.2!precompiled-2_9_3.jar(src)
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.xerial.sbt/sbt-sonatype/scala_2.10/sbt_0.13/0.5.0/srcs/sbt-sonatype-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.xerial.sbt/sbt-sonatype/scala_2.10/sbt_0.13/0.5.0/srcs/sbt-sonatype-sources.jar
-[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.xerial.sbt/sbt-sonatype/scala_2.10/sbt_0.13/0.5.0/srcs/sbt-sonatype-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.xerial.sbt/sbt-sonatype/scala_2.10/sbt_0.13/0.5.0/srcs/sbt-sonatype-sources.jar
-[debug] 		tried /Users/jmumm/.ivy2/local/org.xerial.sbt/sbt-sonatype/scala_2.10/sbt_0.13/0.5.0/srcs/sbt-sonatype-sources.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.10_0.13/0.5.0/sbt-sonatype-0.5.0-sources.jar
-[info] downloading http://repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.10_0.13/0.5.0/sbt-sonatype-0.5.0-sources.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.10_0.13/0.5.0/sbt-sonatype-0.5.0-sources.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.10_0.13/0.5.0/sbt-sonatype-0.5.0-sources.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.10_0.13/0.5.0/sbt-sonatype-0.5.0-sources.jar
-[info] 	[SUCCESSFUL ] org.xerial.sbt#sbt-sonatype;0.5.0!sbt-sonatype.jar(src) (341ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.2.6/srcs/httpclient-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpclient/4.2.6/srcs/httpclient-sources.jar
-[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.2.6/srcs/httpclient-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpclient/4.2.6/srcs/httpclient-sources.jar
-[debug] 		tried /Users/jmumm/.ivy2/local/org.apache.httpcomponents/httpclient/4.2.6/srcs/httpclient-sources.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6-sources.jar
-[info] downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6-sources.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6-sources.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6-sources.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.2.6!httpclient.jar(src) (412ms)
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.2.5/srcs/httpcore-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.httpcomponents/httpcore/4.2.5/srcs/httpcore-sources.jar
-[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.2.5/srcs/httpcore-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.httpcomponents/httpcore/4.2.5/srcs/httpcore-sources.jar
-[debug] 		tried /Users/jmumm/.ivy2/local/org.apache.httpcomponents/httpcore/4.2.5/srcs/httpcore-sources.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-sources.jar
-[info] downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-sources.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-sources.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-sources.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.2.5!httpcore.jar(src) (315ms)
+[debug] 	[NOT REQUIRED] org.xerial.sbt#sbt-sonatype;0.5.0!sbt-sonatype.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.2.6!httpclient.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.2.5!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.6/srcs/commons-codec-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.6/srcs/commons-codec-sources.jar
-[debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.6/srcs/commons-codec-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.6/srcs/commons-codec-sources.jar
-[debug] 		tried /Users/jmumm/.ivy2/local/commons-codec/commons-codec/1.6/srcs/commons-codec-sources.jar
-[debug] 		tried http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar
-[info] downloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar
-[debug] 	public: downloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar
-[info] 	[SUCCESSFUL ] commons-codec#commons-codec;1.6!commons-codec.jar(src) (344ms)
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] com.jsuereth#sbt-pgp;1.0.0!sbt-pgp.jar(src)
 [debug] 	[NOT REQUIRED] com.jsuereth#pgp-library_2.10;1.0.0!pgp-library_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
@@ -1319,6 +1279,6 @@
 [debug] 	[NOT REQUIRED] net.databinder#dispatch-core_2.10;0.8.10!dispatch-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] net.databinder#dispatch-futures_2.10;0.8.10!dispatch-futures_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.2!scala-actors.jar(src)
-[debug] :: resolution report :: resolve 173ms :: artifacts dl 2310ms
+[debug] :: resolution report :: resolve 302ms :: artifacts dl 36ms
 [debug] 	report for com.jtfmumm#set-theory$sources_2.10;0.1.0 default produced in /Users/jmumm/dev/scala/set-theory/target/resolution-cache/reports/com.jtfmumm-set-theory$sources_2.10-default.xml
-[debug] 	resolve done (173ms resolve - 2310ms download)
+[debug] 	resolve done (302ms resolve - 36ms download)
