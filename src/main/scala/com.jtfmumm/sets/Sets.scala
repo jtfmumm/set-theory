@@ -1,3 +1,5 @@
+package com.jtfmumm.sets
+
 trait _Set
 
 trait PureSet extends _Set {

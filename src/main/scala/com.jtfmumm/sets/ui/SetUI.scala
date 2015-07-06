@@ -1,3 +1,5 @@
+package com.jtfmumm.sets.ui
+
 import main.scala.digitparser.DigitParser
 
 object SetUI {
