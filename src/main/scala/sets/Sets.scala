@@ -185,28 +185,28 @@ def pureSetCombinations(l: List[PureSet]): PureSet = {
 
 //ASSERTIONS
 
-val p0 = PureSet()
-val p1 = p0.powerSet
-val p2 = p1.powerSet
-val p3 = p2.powerSet
-val p4 = p3.powerSet
-//val p5 = p4.powerSet
-
-assert(p0.size == 0)
-assert(p1.size == Math.pow(2, 0))
-assert(p2.size == Math.pow(2, 1))
-assert(p3.size == Math.pow(2, 2))
-assert(p4.size == Math.pow(2, 4))
-//  assert(p5.size == Math.pow(2, 16))
-
-val zero = PureSet.zero
-val one = PureSet.succ(zero)
-val two = PureSet.succ(one)
-val three = PureSet.succ(two)
-val four = PureSet.succ(three)
-val five = PureSet.succ(four)
-val six = PureSet.succ(five)
-val seven = PureSet.succ(six)
-val eight = PureSet.succ(seven)
-val nine = PureSet.succ(eight)
-val ten = PureSet.succ(nine)
+//val p0 = PureSet()
+//val p1 = p0.powerSet
+//val p2 = p1.powerSet
+//val p3 = p2.powerSet
+//val p4 = p3.powerSet
+////val p5 = p4.powerSet
+//
+//assert(p0.size == 0)
+//assert(p1.size == Math.pow(2, 0))
+//assert(p2.size == Math.pow(2, 1))
+//assert(p3.size == Math.pow(2, 2))
+//assert(p4.size == Math.pow(2, 4))
+////  assert(p5.size == Math.pow(2, 16))
+//
+//val zero = PureSet.zero
+//val one = PureSet.succ(zero)
+//val two = PureSet.succ(one)
+//val three = PureSet.succ(two)
+//val four = PureSet.succ(three)
+//val five = PureSet.succ(four)
+//val six = PureSet.succ(five)
+//val seven = PureSet.succ(six)
+//val eight = PureSet.succ(seven)
+//val nine = PureSet.succ(eight)
+//val ten = PureSet.succ(nine)
