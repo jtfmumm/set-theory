@@ -1,6 +1,7 @@
 package com.jtfmumm.sets.ui
 
-import main.scala.digitparser.DigitParser
+import com.jtfmumm.sets._
+import com.jtfmumm.digitparser.DigitParser
 
 object SetUI {
   val digits = List('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')

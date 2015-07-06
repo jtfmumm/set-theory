@@ -1,0 +1,61 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7065dd5e, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/classes:/Users/jmumm/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:3: not found: object main[0m
+[0m[[31merror[0m] [0mimport main.scala.digitparser.DigitParser[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:13: not found: type DigitParser[0m
+[0m[[31merror[0m] [0m  val natParser = new DigitParser[PureSet](PureSet.zero, PureSet.succ)[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:16: not found: type PureSet[0m
+[0m[[31merror[0m] [0m  def parseCalc(s: String): PureSet = {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:21: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case "+" => PureSet.plus(n1, n2)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:22: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case "-" => PureSet.minus(n1, n2)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:23: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case "*" => PureSet.times(n1, n2)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:32: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case ">" => PureSet.gt(n1, n2)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:33: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case ">=" => PureSet.gte(n1, n2)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:34: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case "<" => PureSet.lt(n1, n2)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:35: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case "<=" => PureSet.lte(n1, n2)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/jmumm/dev/scala/set-theory/src/main/scala/com.jtfmumm/sets/ui/SetUI.scala:36: not found: value PureSet[0m
+[0m[[31merror[0m] [0m      case "==" => PureSet.eq(n1, n2)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m11 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
