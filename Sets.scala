@@ -37,13 +37,11 @@ object PureSet {
     PureSet.oPair(s, t)
   })  //But how can we unwind this, given that the first set in the tuple might have a size > 1?
   def fst(p: PureSet): PureSet = {
-    if (p.size != 2) throw new Exception("You can only take fst on a set with two elements")
     val s = p.reachIn(0)
     val t = p.reachIn(1)
     if (s.isSubsetOf(t)) s else t //This assumes we have an oPair
   }
   def snd(p: PureSet): PureSet = {
-    if (p.size != 2) throw new Exception("You can only take snd on a set with two elements")
     val s = p.reachIn(0)
     val t = p.reachIn(1)
     if (s.isSubsetOf(t)) t else s //This assumes we have an oPair

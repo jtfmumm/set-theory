@@ -1,4 +1,5 @@
-class DigitParser[N](zero: N, succ: N => N, predMap: Map[Char, Char] = baseTenPreds) {
+
+class DigitParser[N](zero: N, succ: N => N) {
   def parse(d: String): N = {
     def loop(n: String, cur: N): N = {
       if (isZeroString(n)) return cur
@@ -28,19 +29,21 @@ class DigitParser[N](zero: N, succ: N => N, predMap: Map[Char, Char] = baseTenPr
 
   private def isZeroString(d: String) = d.dropWhile(_ == '0') == ""
 
+  private def baseTenPreds = Map(
+    '9' -> '8',
+    '8' -> '7',
+    '7' -> '6',
+    '6' -> '5',
+    '5' -> '4',
+    '4' -> '3',
+    '3' -> '2',
+    '2' -> '1',
+    '1' -> '0'
+  )
+
+  private def predMap = baseTenPreds
 }
 
-def baseTenPreds = Map(
-  '9' -> '8',
-  '8' -> '7',
-  '7' -> '6',
-  '6' -> '5',
-  '5' -> '4',
-  '4' -> '3',
-  '3' -> '2',
-  '2' -> '1',
-  '1' -> '0'
-)
 
 val z = 0
 def succ(n: Int) = n + 1
