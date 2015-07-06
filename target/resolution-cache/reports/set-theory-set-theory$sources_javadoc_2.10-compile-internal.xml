@@ -7,10 +7,10 @@
 		revision="0.1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150706105630"/>
+		date="20150706170812"/>
 	<dependencies>
 		<module organisation="digit-parser" name="digit-parser_2.10">
-			<revision name="0.1.0" status="integration" pubdate="20150706105630" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+			<revision name="0.1.0" status="integration" pubdate="20150706170812" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="set-theory" name="set-theory$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="0.1.0" rev-constraint-default="0.1.0" rev-constraint-dynamic="0.1.0" callerrev="0.1.0"/>
 				<artifacts>

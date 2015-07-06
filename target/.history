@@ -1,0 +1,30 @@
+show */*:pgpSecretRing
+pgp-cmd send-key pubring.gpg hkp://pool.sks-keyservers.net
+pgp-cmd gen-key
+set pgpReadOnly := false
+pgp-cmd gen-key
+useGpg := true
+pgp-cmd gen-key
+show */*:pgpSecretRing
+show */*:pgpPublicRing
+pgp-cmd gen-key
+set pgpReadOnly := false
+pgp-cmd gen-key
+pgp-cmd send-key pubring.gpg hkp://pool.sks-keyservers.net
+pgp-cmd send-key jtfmumm@gmail.com hkp://pool.sks-keyservers.net
+publishMavenStyle := true
+compile
+exit
+publishSigned
+exit
+sonatypeRelease
+sbt-sonatype sonatypeRelease
+compile
+sonatypeRelease
+sonatypeClose
+sonatypeRelease
+exit
+sonatypeRelease
+publishSigned
+sonatypeRelease
+exit

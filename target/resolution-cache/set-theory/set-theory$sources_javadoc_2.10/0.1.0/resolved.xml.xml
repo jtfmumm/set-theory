@@ -4,7 +4,7 @@
 		module="set-theory$sources_javadoc_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20150706105630"
+		publication="20150706170812"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

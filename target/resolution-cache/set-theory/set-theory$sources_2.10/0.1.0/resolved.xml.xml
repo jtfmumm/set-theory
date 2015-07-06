@@ -4,7 +4,7 @@
 		module="set-theory$sources_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20150706105628"
+		publication="20150706170811"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -14,9 +14,6 @@
 	<dependencies>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.2" transitive="false" conf="default->default(compile)">
 			<artifact name="sbt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" transitive="false" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.3/">
-			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scala-sbt" name="main" rev="0.13.2" transitive="false" conf="default->default(compile)">
 			<artifact name="main" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -140,6 +137,45 @@
 		</dependency>
 		<dependency org="org.scala-sbt" name="precompiled-2_9_3" rev="0.13.2" transitive="false" conf="default->default(compile)">
 			<artifact name="precompiled-2_9_3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.jsuereth" name="sbt-pgp" rev="1.0.0" transitive="false" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10">
+			<artifact name="sbt-pgp" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.jsuereth" name="pgp-library_2.10" rev="1.0.0" transitive="false" conf="default->default(compile)">
+			<artifact name="pgp-library_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" transitive="false" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.4/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.bouncycastle" name="bcpg-jdk15on" rev="1.51" transitive="false" conf="default->default(compile)">
+			<artifact name="bcpg-jdk15on" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.51" transitive="false" conf="default->default(compile)">
+			<artifact name="bcprov-jdk15on" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="dispatch-http_2.10" rev="0.8.10" transitive="false" conf="default->default(compile)">
+			<artifact name="dispatch-http_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="dispatch-core_2.10" rev="0.8.10" transitive="false" conf="default->default(compile)">
+			<artifact name="dispatch-core_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.1.3" transitive="false" conf="default->default(compile)">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.1.4" transitive="false" conf="default->default(compile)">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" transitive="false" conf="default->default(compile)">
+			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-codec" name="commons-codec" rev="1.4" transitive="false" conf="default->default(compile)">
+			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="dispatch-futures_2.10" rev="0.8.10" transitive="false" conf="default->default(compile)">
+			<artifact name="dispatch-futures_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-actors" rev="2.10.2" transitive="false" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.2/">
+			<artifact name="scala-actors" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 	</dependencies>
 </ivy-module>
